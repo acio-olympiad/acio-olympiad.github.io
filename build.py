@@ -11,7 +11,7 @@ print(len(template_file))
 for dirpath, dirnames, filenames in os.walk("./build/"):
     for fn in filenames:
         with open(os.path.join(dirpath, fn)) as f:
-            title, *remainder = f.read().split()
+            title, *remainder = f.read().split("\n")
             content = "\n".join(remainder)
             newdir = dirpath.replace("/build", "")
             os.makedirs(newdir, exist_ok=True)
