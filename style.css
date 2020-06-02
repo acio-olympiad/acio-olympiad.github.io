@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@700&family=Oxygen+Mono&display=swap');
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #292929;
+	font-family: 'Oxygen Mono', monospace;
+	color: #c7c5e2;
+}
+
+#main {
+	padding: 20px 40px 40px 40px;
+	height: 100%;
+}
+
+a {
+	color: #7553af;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-size: 24px; /* lol why use h1 and h3 anyway */
+	color: #8770c2;
+	font-family: 'Fira Mono', monospace;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	padding: 40px;
+	margin: 0 auto;
+	display: block;
+}
+
+/* Add padding between td's */
+#nav td {
+	padding-right: 20px;
+	font-size: 24px;
+}
+
+#nav td#title a {
+	font-family: 'Fira Mono', monospace;
+	color: #8770c2;
+}
+
+
+#nav td a {
+	font-family: 'Fira Mono', monospace;
+}
