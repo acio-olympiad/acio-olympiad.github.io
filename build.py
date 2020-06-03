@@ -6,7 +6,7 @@ with open("./template.html") as t:
 with open("./style.css") as s:
     template_file = template_file.replace("<link rel=\"stylesheet\" href=\"style.css\">", "<style>" + s.read() + "</style>");
 
-print(len(template_file))
+print("Length of template:", len(template_file))
 
 for dirpath, dirnames, filenames in os.walk("./build/"):
     for fn in filenames:
