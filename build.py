@@ -4,7 +4,7 @@ template_file = ""
 with open("./template.html") as t:
     template_file = t.read()
 with open("./style.css") as s:
-    template_file = template_file.replace("<link rel=\"stylesheet\" href=\"style.css\">", "<style>" + s.read() + "</style>");
+    template_file = template_file.replace("<link rel=\"stylesheet\" href=\"style.css\"/>", "<style>" + s.read() + "</style>");
 
 print("Length of template:", len(template_file))
 
