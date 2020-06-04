@@ -59,3 +59,11 @@ footer {
 #nav td a {
 	font-family: 'Fira Mono', monospace;
 }
+
+/* Standings */
+.standings {
+	border-spacing: 10px;
+}
+.standings .hline {
+	border-bottom: 1px solid #c7c5e2;
+}
