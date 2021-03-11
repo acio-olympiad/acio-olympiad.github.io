@@ -1,3 +1,8 @@
+'''
+Usage: 
+    python3 csv_to_html.py <csv file>
+'''
+
 import sys
 
 SCORES = ""
